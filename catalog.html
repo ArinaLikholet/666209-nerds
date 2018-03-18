@@ -43,7 +43,7 @@
         <section class="main">
           <h2 class="catalog_header">Сортировка</h2>
           <fieldset class="filter-scroll">
-              <legend class="filter-scroll_header">Стоимость</legend>
+              <legend class="filter_header">Стоимость</legend>
             <label>
               <input type="range" name="radio">
             </label></br>
@@ -52,81 +52,81 @@
             <label for="to-id">до</label>
               <input type="text" name="to" id="to-id" placeholder="15000">
           </fieldset>
-          <fieldset class="filter-radio">
-            <legend class="filter-radio_header">Сетка</legend>
-            <ul class="filter-radio_list">
-              <li class="filter-radio_input">
-                <input class="visually-hidden filter-input filter-radio_input" type="radio" name="product-group" value="adaptive">
+          <fieldset class="filter">
+            <legend class="filter_header">Сетка</legend>
+            <ul class="filter_list">
+              <li class="filter_input">
+                <input class="visually-hidden filter-input filter_input" type="radio" name="product-group" value="adaptive">
                 Адаптивная
-                <a class="filter-radio_link" href="order.html">
+                <div class=filter_img>
                   <img src="img/svg-nerds/radio-on.svg" width="25" height="25">
                   <img src="img/svg-nerds/radio-off.svg" width="25" height="25">
-                </a>
+                </div>
               </li>
-              <li class="filter-radio_input">
-                <input class="visually-hidden filter-input filter-radio_input" type="radio" name="product-group" value="fixed">
+              <li class="filter_input">
+                <input class="visually-hidden filter_input" type="radio" name="product-group" value="fixed">
                 Фиксированная
-                <a class="filter-radio_link" href="order.html">
+                <div class=filter_img>
                   <img src="img/svg-nerds/radio-on.svg" width="25" height="25">
                   <img src="img/svg-nerds/radio-off.svg" width="25" height="25">
-                </a>
+                </div>
               </li>
-              <li class="filter-radio_input">
-                <input class="visually-hidden filter-input filter-radio_input" type="radio" name="product-group" value="rubbed">
+              <li class="filter_input">
+                <input class="visually-hidden filter_input" type="radio" name="product-group" value="rubbed">
                 Резиновая
-                <a class="filter-radio_link" href="order.html">
+                <div class=filter_img>
                   <img src="img/svg-nerds/radio-on.svg" width="25" height="25">
                   <img src="img/svg-nerds/radio-off.svg" width="25" height="25">
-                </a>
+                </div>
               </li>
             </ul>
           </fieldset>
           <div class="card">
-            <fieldset class=filter-checkbox_input>
+            <fieldset class=filter>
               <legend class="form">Особенности:</legend>
-              <ul>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-checkbox_input" type="checkbox" name="slider" id="filter-slider">
-                  <label for="filter-adaptive">Слайдер</label>
-                  <a class="card_link" href="slider.html">
+              <ul class="filter_list">
+                <li class="filter_input">
+                  <input class="visually-hidden filter_input" type="checkbox" name="slider" id="filter-slider">
+                  <label for="filter_input">Слайдер</label>
+                  <div class=filter_img>
                     <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
                     <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </a>
+                  </div>
                 </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-checkbox_input" type="checkbox" name="advantages" id="filter-advantages">
-                  <label for="filter-advantages">Преимущества</label>
-                  <a class="card_link" href="advantages.html">
+                <li class="filter_input">
+                  <input class="visually-hidden filter_input" type="checkbox" name="advantages" id="filter-advantages">
+                  <label for="filter_input">Преимущества</label>
+                  <div class=filter_img>
                     <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
                     <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </a>
+                  </div>
                 </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-checkbox_input" type="checkbox" name="news" id="filter-news">
-                  <label for="filter-news">Новости</label>
-                  <a href="news.html" class="card_link">
+                <li class="filter_input">
+                  <input class="visually-hidden filter_input" type="checkbox" name="news" id="filter-news">
+                  <label for="filter_input">Новости</label>
+                  <div class=filter_img>
                     <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
                     <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </a>
+                  </div>
                 </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galery" id="filter-galery">
-                  <label for="filter-galery">Галерея</label>
-                  <a href="galery.html" class="card_link">
+                <li class="filter_input">
+                  <input class="visually-hidden filter_input" type="checkbox" name="galery" id="filter-galery">
+                  <label for="filter_input">Галерея</label>
+                  <div class=filter_img>
                     <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
                     <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </a>
+                  </div>
                 </li>
-                <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="cart" id="filter-cart">
-                  <label for="filter-cart">Корзина</label>
-                  <a href="cart.html" class="card_link">
+                <li class="filter_input">
+                  <input class="visually-hidden filter_input" type="checkbox" name="cart" id="filter-cart">
+                  <label for="filter_input">Корзина</label>
+                  <div class=filter_img>
                     <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
                     <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </a>
+                  </div>
                 </li>
               </ul>
-              <button type="submit" class="filter-button button">Показать</button
+              <button type="submit" class="filter-button button">Показать</button>
             </fieldset>
           </div>
         </section>
@@ -298,10 +298,10 @@
           </ul>
         </div>
         <div class=paginator>
-          <a class="paginator_button" href=1.html>1</a>
-          <a class="paginator_button" href=2.html>2</a>
-          <a class="paginator_button" href=3.html>3</a>
-          <a class="paginator_button" href=next.html>Следующая</a>
+          <a class="paginator_button" href="1.html">1</a>
+          <a class="paginator_button" href="2.html">2</a>
+          <a class="paginator_button" href="3.html">3</a>
+          <a class="paginator_button" href="next.html">Следующая</a>
         </div>
       </div>
       <section class="contacts">
@@ -312,16 +312,16 @@
         </div>
         <form action="https://echo.htmlacademy.ru"; method="post">
           <button class="modal-close" "visually-hidden" type="button">
-            <img src="img/svg-nerds/close-cross.svg" width="23" height="23">
           </button>
-          <label for="name-id">Ваше имя:</label><br>
-            <input type="text" name="name" id="name-id" placeholder="Имя Фамилия"><br>
+          <label for="name-id">Ваше имя:</label>
+            <input type="text" name="name" id="name-id" placeholder="Имя Фамилия">
           </label>
-          <label for="login-id">Ваш e-mail:</label><br>
-            <input type="email-id" name="email" id="email-id" placeholder="email@example.com"><br>
+          <label for="login-id">Ваш e-mail:</label>
+            <input type="email-id" name="email" id="email-id" placeholder="email@example.com">
           </label>
-          <label for="inform-id">Текст письма:</label> <br>
-            <textarea name="comment" id="comment-id" placeholder="В свободной форме" ></textarea><br>
+          <label for="inform-id">Текст письма:</label>
+            <textarea name="comment" id="comment-id" placeholder="В свободной форме"></textarea>
+          </label>
           <input type="submit"value="Отправить">
         </form>
       </section>
