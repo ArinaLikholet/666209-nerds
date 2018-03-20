@@ -5,11 +5,12 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
+    <!-- Хедер -->
     <header class="main-header">
       <div class=container>
         <a class="main-header_link">
           <img src="img/svg-nerds/nerds-logo.svg" width="160" height="65" alt="Логотип дизайнерской студии Nerd's">
-          <---вставить ссылку на главную--->
+          <!--вставить ссылку на главную--->
         </a>
         <nav class="main-navigation">
           <ul class="main-navigation_list">
@@ -38,17 +39,18 @@
         <h1 class="container_header">Магазин готовых шаблонов</h1>
       </div>
     </header>
+    <!--Майн -->
     <main class="user-catalog">
       <div class="container">
         <section class="main">
           <h2 class="catalog_header">Сортировка</h2>
           <fieldset class="filter-scroll">
-              <legend class="filter_header">Стоимость</legend>
+            <legend class="filter_header">Стоимость</legend>
             <label>
-              <input type="range" name="radio">
-            </label></br>
+            <input type="range" name="radio">
+            </label>
             <label for="from-id">от</label>
-              <input type="text" name="from" id="from-id" placeholder="0">
+            <input type="text" name="from" id="from-id" placeholder="0">
             <label for="to-id">до</label>
               <input type="text" name="to" id="to-id" placeholder="15000">
           </fieldset>
@@ -57,27 +59,15 @@
             <ul class="filter_list">
               <li class="filter_input">
                 <input class="visually-hidden filter-input filter_input" type="radio" name="product-group" value="adaptive">
-                Адаптивная
-                <div class=filter_img>
-                  <img src="img/svg-nerds/radio-on.svg" width="25" height="25">
-                  <img src="img/svg-nerds/radio-off.svg" width="25" height="25">
-                </div>
+                <label for="filter_input">Адаптивная</label>
               </li>
               <li class="filter_input">
                 <input class="visually-hidden filter_input" type="radio" name="product-group" value="fixed">
-                Фиксированная
-                <div class=filter_img>
-                  <img src="img/svg-nerds/radio-on.svg" width="25" height="25">
-                  <img src="img/svg-nerds/radio-off.svg" width="25" height="25">
-                </div>
+                <label for="filter_input">Фиксированная</label>
               </li>
               <li class="filter_input">
                 <input class="visually-hidden filter_input" type="radio" name="product-group" value="rubbed">
-                Резиновая
-                <div class=filter_img>
-                  <img src="img/svg-nerds/radio-on.svg" width="25" height="25">
-                  <img src="img/svg-nerds/radio-off.svg" width="25" height="25">
-                </div>
+                <label for="filter_input">Резиновая</label>
               </li>
             </ul>
           </fieldset>
@@ -88,42 +78,22 @@
                 <li class="filter_input">
                   <input class="visually-hidden filter_input" type="checkbox" name="slider" id="filter-slider">
                   <label for="filter_input">Слайдер</label>
-                  <div class=filter_img>
-                    <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
-                    <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </div>
                 </li>
                 <li class="filter_input">
                   <input class="visually-hidden filter_input" type="checkbox" name="advantages" id="filter-advantages">
                   <label for="filter_input">Преимущества</label>
-                  <div class=filter_img>
-                    <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
-                    <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </div>
                 </li>
                 <li class="filter_input">
                   <input class="visually-hidden filter_input" type="checkbox" name="news" id="filter-news">
                   <label for="filter_input">Новости</label>
-                  <div class=filter_img>
-                    <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
-                    <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </div>
                 </li>
                 <li class="filter_input">
                   <input class="visually-hidden filter_input" type="checkbox" name="galery" id="filter-galery">
                   <label for="filter_input">Галерея</label>
-                  <div class=filter_img>
-                    <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
-                    <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </div>
                 </li>
                 <li class="filter_input">
                   <input class="visually-hidden filter_input" type="checkbox" name="cart" id="filter-cart">
                   <label for="filter_input">Корзина</label>
-                  <div class=filter_img>
-                    <img src="img/svg-nerds/checkbox-on.svg" width="27" height="25">
-                    <img src="img/svg-nerds/checkbox-off.svg" width="27" height="25">
-                  </div>
                 </li>
               </ul>
               <button type="submit" class="filter-button button">Показать</button>
@@ -144,14 +114,10 @@
                 <a class="main-navigation_link" href="shop.html">По названию</a>
               </li>
               <li class="user-navigation_item">
-                <span class=user-navigation_span>
-                  <img src="img/svg-nerds/icon-down-dir.svg" width="12" height="10">
-                </span>
+                <span class=user-navigation_span></span>
               </li>
               <li class="user-navigation_item">
-                <span class=user-navigation_span>
-                  <img src="img/svg-nerds/icon-up-dir.svg" width="12" height="10">
-                </span>
+                <span class=user-navigation_span></span>
               </li>
             </ul>
           </nav>
@@ -161,12 +127,8 @@
             <li class="presentation_item-group">
               <article class="presentation_item">
                 <div class="presentation_span">
-                  <span class="circle_span">
-                    <img src="img/blackheader.jpg" width="360" height="43">
-                  </span>
-                  <span class="circle_span">
-                    <img src="img/grayheader.jpg" width="360" height="43">
-                  </span>
+                  <span class="circle_span"></span>
+                  <span class="circle_span"></span>
                 </div>
                 <div class=projects>
                   <p class="project_item-image">
@@ -184,35 +146,27 @@
             <li class="presentation_item-group">
               <article class="presentation_item">
                 <div class="presentation_span">
-                  <span class="circle_span">
-                    <img src="img/blackheader.jpg" width="360" height="43">
-                  </span>
-                  <span class="circle_span">
-                    <img src="img/grayheader.jpg" width="360" height="43">
-                  </span>
-                  <div class=projects>
-                    <p class="project_item-image">
-                      <img src="img/pink.jpg" width="358" height="577"> alt=Pink app
-                    </p>
-                    <a href="catalog-item.html">
-                    <h3 class="project_header">
-                      <span class=projects_item>Pink app</span><br>
-                      <span class=projects_item_title>Продуктовый лендинг приложения для iOS и Android</span>
-                    </h3>
-                    <a class="button" href="price.html">9 900 РУБ.</a>
-                  </div>
+                  <span class="circle_span"></span>
+                  <span class="circle_span"></span>
+                </div>
+                <div class=projects>
+                  <p class="project_item-image">
+                    <img src="img/pink.jpg" width="358" height="577"> alt=Pink app
+                  </p>
+                  <a href="catalog-item.html">
+                  <h3 class="project_header">
+                    <span class=projects_item>Pink app</span>
+                    <span class=projects_item_title>Продуктовый лендинг приложения для iOS и Android</span>
+                  </h3>
+                  <a class="button" href="price.html">9 900 РУБ.</a>
                 </div>
               </article>
             </li>
             <li class="presentation_item-group">
               <article class="presentation_item">
                 <div class="presentation_span">
-                  <span class="circle_span">
-                    <img src="img/blackheader.jpg" width="360" height="43">
-                  </span>
-                  <span class="circle_span">
-                    <img src="img/grayheader.jpg" width="360" height="43">
-                  </span>
+                  <span class="circle_span"></span>
+                  <span class="circle_span"></span>
                 </div>
                 <div class=projects>
                   <p class="project_item-image">
@@ -220,7 +174,7 @@
                   </p>
                   <a href="catalog-item.html">
                   <h3 class="project_header">
-                    <span class=projects_item>Barbershop "Borodinsky"</span><br>
+                    <span class=projects_item>Barbershop "Borodinsky"</span>
                     <span class=projects_item_title>Сайт салона красоты. Для мужчин, да.</span>
                   </h3>
                   <a class="button" href="price.html">9 900 РУБ.</a>
@@ -230,12 +184,8 @@
             <li class="presentation_item-group">
               <article class="presentation_item">
                 <div class="presentation_span">
-                  <span class="circle_span">
-                    <img src="img/blackheader.jpg" width="360" height="43">
-                  </span>
-                  <span class="circle_span">
-                    <img src="img/grayheader.jpg" width="360" height="43">
-                  </span>
+                  <span class="circle_span"></span>
+                  <span class="circle_span"></span>
                 </div>
                 <div class=projects>
                   <p class="project_item-image">
@@ -253,12 +203,8 @@
             <li class="presentation_item-group">
               <article class="presentation_item">
                 <div class="presentation_span">
-                  <span class="circle_span">
-                    <img src="img/blackheader.jpg" width="360" height="43">
-                  </span>
-                  <span class="circle_span">
-                    <img src="img/grayheader.jpg" width="360" height="43">
-                  </span>
+                  <span class="circle_span"></span>
+                  <span class="circle_span"></span>
                 <div class=projects>
                   <p class="project_item-image">
                     <img src="img/aplus.jpg" width="358" height="577"> alt="A Plus"
@@ -275,12 +221,8 @@
             <li class="presentation_item-group">
               <article class="presentation_item">
                 <div class="presentation_span">
-                  <span class="circle_span">
-                    <img src="img/blackheader.jpg" width="360" height="43">
-                  </span>
-                  <span class="circle_span">
-                    <img src="img/grayheader.jpg" width="360" height="43">
-                  </span>
+                  <span class="circle_span"></span>
+                  <span class="circle_span"></span>
                 </div>
                 <div class=projects>
                   <p class="project_item-image">
@@ -310,7 +252,7 @@
           <p class=contacts_item>191186,Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 тел. +7 (812)275-75-75</p>
           <a class=contacts_link href="contacts.html">Напишите нам</a>
         </div>
-        <form action="https://echo.htmlacademy.ru"; method="post">
+        <form action="https://echo.htmlacademy.ru" method="post">
           <button class="modal-close" "visually-hidden" type="button">
           </button>
           <label for="name-id">Ваше имя:</label>
@@ -326,6 +268,7 @@
         </form>
       </section>
     </main>
+    <!-- Футер -->
     <footer class="main-footer">
       <div class="container">
         <b>Давайте дружить,это выгодно!</b>
