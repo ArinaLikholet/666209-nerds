@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -35,11 +36,11 @@
         </nav>
       </div>
       <div class=container_slider>
-        <div class=feature>
-          <span class=feature_span></span>
-          <span class=feature_span></span>
-          <span class=feature_span></span>
-        </div>
+        <input class="visually-hidden" type="radio" id="first" name="toggle" checked>
+        <input class="visually-hidden" type="radio" id="second" name="toggle">
+        <input class="visually-hidden" type="radio" id="third" name="toggle">
+      </div>
+      <div>
         <section class="features">
           <h2 class="features_header">Долго, дорого, скрупулезно.</h2>
           <p class="features_item"> Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
@@ -114,25 +115,25 @@
           <ul class="partners_list">
             <li class="partners_item">
               <a class="partners_link">
-                <img src="img/htmlacademy.svg" width="368" height="153" alt="Логотип htmlacademy">
+                <img src="img/htmlacademy.png" width="368" height="153" alt="Логотип htmlacademy">
                 <span class="visually-hidden">Htmlacademy</span>
               </a>
             </li>
             <li class="partners_item">
               <a class="partners_link">
-                <img src="img/borodinsky.svg" width="368" height="153" alt="Логотип barbershop Borodinsky">
-                <span class="visually-hidden">barbershop Borodinsky</span>
+                <img src="img/borodinski.png" width="368" height="153" alt="Логотип barbershop Borodinski">
+                <span class="visually-hidden">barbershop Borodinski</span>
               </a>
             </li>
             <li class="partners_item">
               <a class="partners_link">
-                <img src="img/pink.svg" width="368" height="153" alt="Логотип Pink">
+                <img src="img/pink.png" width="368" height="153" alt="Логотип Pink">
                 <span class="visually-hidden">Pink</span>
               </a>
             </li>
             <li class="partners_item">
               <a class="partners_link">
-                <img src="img/mishka.svg" width="368" height="153" alt="Логотип Mishka">
+                <img src="img/mishka.png" width="368" height="153" alt="Логотип Mishka">
                 <span class="visually-hidden">Mishka</span>
               </a>
             </li>
@@ -161,6 +162,7 @@
         </form>
       </section>
     </main>
+    <!-- Футер -->
     <footer class="main-footer">
       <div class="container">
         <b>Давайте дружить,это выгодно!</b>
@@ -168,19 +170,16 @@
         <ul>
           <li>
             <a class="footer-social_link" href="vk.html">
-              <img src="img/svg-nerds/vk-icon.svg" width="80" height="80">
               Вконтакте
             </a>
           </li>
           <li>
             <a class="footer-social_link" href="fb.html">
-              <img src="img/svg-nerds/fb-icon.svg" width="80" height="80">
               Фейсбук
             </a>
           </li>
           <li>
             <a class="footer-social_link" href="inst.html">
-              <img src="img/svg-nerds/insta-icon.svg" width="80" height="80">
               Инстаграм
             </a>
           </li>
