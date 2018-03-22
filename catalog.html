@@ -43,42 +43,42 @@
         <section class="main">
           <h2 class="catalog-header visually-hidden">Сортировка</h2>
           <fieldset class="filter-scroll">
-              <h3 class="filter-header header-med">Стоимость</h3>
-              <div class="filter-scroll-range">
-                <div class="filter-scroll-controls">
-                  <div class="scale">
-                    <div class="bar" style="width:70%"></div>
-                  </div>
-                  <div class="toggle min-toggle"></div>
-                  <div class="toggle max-toggle"></div>
+            <h3 class="filter-header header-med">Стоимость</h3>
+            <div class="filter-scroll-range">
+              <div class="filter-scroll-controls">
+                <div class="scale">
+                  <div class="bar" style="width:70%"></div>
                 </div>
-                <div class="price-controls">
-                  <label>
-                    от
-                    <input class="min-price" name="min-price" type="text" value="0">
-                  </label>
-                  <label>
-                    до
-                    <input class="max-price" name="max-price" type="text" value="15 000">
-                  </label>
-                </div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
               </div>
-            </fieldset>
+              <div class="price-controls">
+                <label>
+                    от
+                  <input class="min-price" name="min-price" type="text" value="0">
+                </label>
+                <label>
+                    до
+                  <input class="max-price" name="max-price" type="text" value="15 000">
+                </label>
+              </div>
+            </div>
+          </fieldset>
           <fieldset class="filter">
             <h3 class="filter-header header-med">Сетка</h3>
             <ul class="filter-list">
               <li class="filter-input">
-                <label for="filter-input">Адаптивная
+                <label class="filter-input">Адаптивная
                   <input class="visually-hidden filter-input" type="radio" name="product-group" value="adaptive">
                 </label>
               </li>
               <li class="filter-input">
-                <label for="filter-input">Фиксированная
+                <label class="filter-input">Фиксированная
                   <input class="visually-hidden filter-input" type="radio" name="product-group" value="fixed">
                 </label>
               </li>
               <li class="filter-input">
-                <label for="filter-input">Резиновая
+                <label class="filter-input">Резиновая
                   <input class="visually-hidden filter-input" type="radio" name="product-group" value="rubbed">
                 </label>
               </li>
@@ -88,28 +88,28 @@
             <h2 class="small-header">Особенности:</h2>
             <ul class="filter-list">
               <li class="filter-input">
-                <label for="filter-input">Слайдер
-                  <input class="visually-hidden filter-input" type="checkbox" name="slider" id="filter-slider">
+                <label class="filter-input">Слайдер
+                  <input class="visually-hidden filter-input" type="checkbox" name="slider">
                 </label>
               </li>
               <li class="filter-input">
-                <label for="filter-input">Преимущества
-                  <input class="visually-hidden filter-input" type="checkbox" name="advantages" id="filter-advantages">
+                <label class="filter-input">Преимущества
+                  <input class="visually-hidden filter-input" type="checkbox" name="advantages">
                 </label>
               </li>
               <li class="filter-input">
-                <label for="filter-input">Новости
-                  <input class="visually-hidden filter-input" type="checkbox" name="news" id="filter-news">
+                <label class=filter-input">Новости
+                  <input class="visually-hidden filter-input" type="checkbox" name="news">
                 </label>
               </li>
               <li class="filter-input">
-                <label for="filter-input">Галерея
-                <input class="visually-hidden filter-input" type="checkbox" name="galery" id="filter-galery">
+                <label class="filter-input">Галерея
+                  <input class="visually-hidden filter-input" type="checkbox" name="galery">
                 </label>
               </li>
               <li class="filter-input">
-                <label for="filter-input">Корзина
-                  <input class="visually-hidden filter-input" type="checkbox" name="cart" id="filter-cart">
+                <label class="filter-input">Корзина
+                  <input class="visually-hidden filter-input" type="checkbox" name="cart">
                 </label>
               </li>
             </ul>
@@ -299,7 +299,7 @@
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="footer-social-link" href="inst.com">
+            <a class="footer-social-link" href="instagramm.com">
               Инстаграм
             </a>
           </li>
@@ -311,18 +311,19 @@
         <h2 class="write-us-title visually-hidden">Напишите нам</h2>
         <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
           <p class="write-us-item small bold">
-            <label for="write-us-name">Ваше имя:
-              <input id="write-us-name" type="text" name="name" placeholder="Имя Фамилия">
+            <label class="write-us">Ваше имя:
+              <input type="text" name="name" placeholder="Имя Фамилия">
             </label>
           </p>
           <p class="write-us-item small bold">
-            <label for="write-us-email">Ваш e-mail:
-              <input id="write-us-email" type="email" name="email" placeholder="email@example.com">
+            <label class="write-us">Ваш e-mail:
+              <input type="email" name="email" placeholder="email@example.com">
             </label>
           </p>
-          <p class="write-us-item small small bold">
-            <label for="write-us-letter">Текст письма:</label>
-            <textarea id="write-us-letter" name="text">В свободной форме</textarea>
+          <p class="write-us-item small bold">
+            <label class="write-us">Текст письма:
+              <textarea name="text">В свободной форме</textarea>
+            </label>
           </p>
           <button class="write-us-button button-red small" type="submit">Отправить</button>
         </form>
