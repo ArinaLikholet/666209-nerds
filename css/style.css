@@ -1346,11 +1346,12 @@ input[type="radio"].visually-hidden {
   border-radius: 3px;
 }
 
-.pagination-item a:hover {
+.pagination-item a:hover
+.pagination-item a:focus  {
   background-color: #dfdfdf;
 }
 
-.pagination-item a:focus {
+.pagination-item a:active {
   color: rgba(0, 0, 0, 0.3);
 
   background-color: #d5d5d5;
