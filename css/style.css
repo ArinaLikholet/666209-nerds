@@ -3,7 +3,7 @@ body {
   padding: 0;
 
   font-size: 16px;
-  line-height: 18px;/Volumes/Macintosh%20HD/Users/antonliholet/Documents/GitHub/666209-nerds/css/style.css
+  line-height: 18px;
   font-family: "Roboto", "Arial", sans-serif;
   color: #000000;
 
@@ -789,11 +789,12 @@ input[type="radio"].visually-hidden {
   color: #444444;
 }
 
-.nerds-logo[href]:hover {
+.nerds-logo[href]:hover,
+.nerds-logo[href]:focus {
   opacity: 0.8;
 }
 
-.nerds-logo[href]:focus {
+.nerds-logo[href]:active {
   opacity: 0.3;
 }
 
