@@ -132,14 +132,34 @@
         </form>
         <section class="presentation">
           <h2  class="visually-hidden">Список шаблонов</h2>
-          <p class="text-sorting">Сортировать:</p>
-          <p class="text-sorting">
-            <a class="text-sorting-link">По цене</a>
-            <a class="text-sorting-link" href="#">По типу</a>
-            <a class="text-sorting-link" href="#">По названию</a>
-            <a class="text-sorting-filters-1">По умолчанию</a>
-            <a class="text-sorting-filters-2">В обратном порядке</a>
-          </p>
+          <div class="text-filter">
+            <span>Сортировать:</span>
+            <div class="container-wrapper">
+              <ul class="text-sort by-feature">
+                <li class="text-sorting-item">
+                  <a class="text-sorting-link">По цене</a>
+                </li>
+                <li class="text-sorting-item">
+                  <a class="text-sorting-link" href="#" rel="nofollow">По типу</a>
+                </li>
+                <li class="text-sorting-item">
+                  <a class="text-sorting-link" href="#" rel="nofollow">По названию</a>
+                </li>
+              </ul>
+              <ul class="text-sort by-order">
+                <li class="text-sorting-item-down">
+                  <a class="active">
+                    <span class="visually-hidden">По умолчанию</span>
+                  </a>
+                </li>
+                <li class="text-sorting-up">
+                  <a href="#" rel="nofollow">
+                    <span class="visually-hidden">В обратном порядке</span>
+                 </a>
+                </li>
+              </ul>
+            </div>
+          </div>
           <ul class="presentation-list">
             <li class="presentation-item">
               <img src="img/sedona.jpg" width="360" height="574" alt="Информационный сайт для туристов Sedona">
@@ -228,7 +248,7 @@
         </div>
         <div class="container">
           <section class="contacts">
-            <h2>NERDS DESIGN STUDIO</h2>
+            <h3>NERDS DESIGN STUDIO</h3>
             <p class="contacts-text text-small">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             <p class="contacts-text text-small">тел. +7 (812) 275-75-75</p>
             <a class="button contacts-button" href="#">Напишите нам</a>
