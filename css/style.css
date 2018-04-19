@@ -35,7 +35,8 @@ input[type="radio"].visually-hidden {
   border: 0;
 
   clip: rect(0, 0, 0, 0);
-  clip-path: inset(100%);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
 }
 
 .container {
@@ -1075,8 +1076,6 @@ input[type="radio"].visually-hidden {
 }
 
 .container-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-basis: 360px;
   justify-content: space-between;
@@ -1090,8 +1089,6 @@ input[type="radio"].visually-hidden {
 }
 
 .text-sort {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
@@ -1100,8 +1097,6 @@ input[type="radio"].visually-hidden {
 }
 
 .text-filter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   width: 762px;
@@ -1163,8 +1158,6 @@ input[type="radio"].visually-hidden {
 }
 
 .by-order a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 11px;
   height: 10px;
@@ -1389,10 +1382,11 @@ input[type="radio"].visually-hidden {
   text-align: center;
 }
 
-@keyframes shake {
+@-webkit-keyframes shake {
   0%,
   100% {
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 
   10%,
@@ -1400,14 +1394,41 @@ input[type="radio"].visually-hidden {
   50%,
   70%,
   90% {
-    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
 
   20%,
   40%,
   60%,
   80% {
-    transform: translateX(10px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
 }
 
@@ -1435,7 +1456,8 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-error {
-  animation: shake 0.8s;
+  -webkit-animation: shake 0.8s;
+          animation: shake 0.8s;
 }
 
 .write-us-wrapper {
@@ -1505,6 +1527,18 @@ input[type="radio"].visually-hidden {
 
   border-color: #000000;
   outline: none;
+}
+
+.write-us-item input[type="text"]::-webkit-input-placeholder {
+  color: rgba(68, 68, 68, 0.5);
+}
+
+.write-us-item input[type="text"]:-ms-input-placeholder {
+  color: rgba(68, 68, 68, 0.5);
+}
+
+.write-us-item input[type="text"]::-ms-input-placeholder {
+  color: rgba(68, 68, 68, 0.5);
 }
 
 .write-us-item input[type="text"]::placeholder {
