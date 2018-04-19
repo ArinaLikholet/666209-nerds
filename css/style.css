@@ -35,8 +35,9 @@ input[type="radio"].visually-hidden {
   border: 0;
 
   clip: rect(0, 0, 0, 0);
-  -webkit-clip-path: inset(100%);
           clip-path: inset(100%);
+
+  -webkit-clip-path: inset(100%);
 }
 
 .container {
@@ -1512,6 +1513,8 @@ input[type="radio"].visually-hidden {
   width: 360px;
   padding: 14px 12px;
 
+  font: inherit;
+
   border: 2px solid #d7dcde;
   border-radius: 5px;
 }
@@ -1551,10 +1554,13 @@ input[type="radio"].visually-hidden {
   min-height: 118px;
   padding: 11px 12px;
 
+  font: inherit;
   color: rgba(68, 68, 68, 0.5);
 
   border: 2px solid #d7dcde;
   border-radius: 5px;
+
+  resize: none;
 }
 
 .write-us-button {
