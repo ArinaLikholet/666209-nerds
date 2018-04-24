@@ -43,6 +43,8 @@ input[type="radio"].visually-hidden {
 .container {
   width: 1160px;
   margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .main-header,
@@ -334,7 +336,6 @@ input[type="radio"].visually-hidden {
 
 .slider-button {
   width: 240px;
-  height: 20px;
 
   font-weight: 300;
   text-align: center;
@@ -1403,8 +1404,11 @@ input[type="radio"].visually-hidden {
 }
 
 .item-info p {
-  margin: 0;
+  width: 200px;
+  max-height: 300px;
+  margin: 0 auto;
   margin-bottom: 30px;
+  overflow-y: auto;
 
   font-weight: 400;
   font-size: 16px;
@@ -1685,6 +1689,13 @@ input[type="radio"].visually-hidden {
 
   border-color: #000000;
   outline: none;
+}
+
+.write-us-item input:invalid {
+  color: #e74246;
+
+  border-color: #e74246;
+  opacity: 1;
 }
 
 .write-us-item input[type="text"]::-webkit-input-placeholder {
