@@ -43,8 +43,8 @@ input[type="radio"].visually-hidden {
 .container {
   width: 1160px;
   margin: 0 auto;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .main-header,
@@ -154,14 +154,15 @@ input[type="radio"].visually-hidden {
 
 .preview {
   position: relative;
+  padding-left: 10px;
 
   background-color: #eeeeee;
 }
 
 .container-slider-controls {
   position: absolute;
-  bottom: 104px;
-  left: 50%;
+  bottom: 113px;
+  left: 49%;
   z-index: 100;
 
   width: 160px;
@@ -219,7 +220,7 @@ input[type="radio"].visually-hidden {
 .slider-item:nth-child(1) {
   background-image: url("../img/slide1.jpg");
   background-repeat: no-repeat;
-  background-position: 91% 90%;
+  background-position: 94% 90%;
 }
 
 .slider-item:nth-child(2) {
@@ -863,7 +864,6 @@ input[type="radio"].visually-hidden {
 
 .caption-catalog {
   margin: 0;
-  margin-bottom: 27px;
   padding-top: 73px;
   padding-bottom: 110px;
 
@@ -1385,7 +1385,7 @@ input[type="radio"].visually-hidden {
           box-sizing: border-box;
   width: 360px;
   min-height: 231px;
-  padding: 0 80px;
+  padding: 0px;
 
   background-color: #eeeeee;
 }
@@ -1411,7 +1411,7 @@ input[type="radio"].visually-hidden {
   max-height: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
-  overflow-y: auto;
+  overflow: auto;
 
   font-weight: 400;
   font-size: 16px;
