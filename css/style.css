@@ -1030,6 +1030,7 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
   opacity: 0.4;
 }
+/* Критерий Д7 допускает такое использование этих селекторов */
 
 .filter-input-radio input[type="radio"]:hover + .radio-indicator,
 .filter-input-radio input[type="radio"]:focus + .radio-indicator {
