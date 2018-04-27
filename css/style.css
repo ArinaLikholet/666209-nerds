@@ -19,8 +19,6 @@ img {
   height: auto;
 }
 
-/*Добрый день! здесь использована стилизация по классу .visually-hideen */
-
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -49,13 +47,14 @@ input[type="radio"].visually-hidden {
   padding-left: 20px;
 }
 
-.main-header,
-.container-slider {
+.main-header {
   background-color: #eeeeee;
 }
 
-.main-header {
+.container-header {
   padding-top: 49px;
+
+  background-color: #eeeeee;
 }
 
 .main-navigation {
@@ -94,6 +93,14 @@ input[type="radio"].visually-hidden {
 
   -webkit-box-pack: end;
   -ms-flex-pack: end;
+}
+
+.main-navigation-item {
+  padding-left: 20px;
+}
+
+.main-navigation-item:nth-child(1) {
+  padding-left: 0;
 }
 
 .main-navigation-link,
@@ -833,6 +840,7 @@ input[type="radio"].visually-hidden {
 .footer-social-link:active img {
   opacity: 0.3;
 }
+
 .footer-social-wrapper {
   width: 560px;
 }
@@ -1030,7 +1038,6 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
   opacity: 0.4;
 }
-/* Критерий Д7 допускает такое использование этих селекторов */
 
 .filter-input-radio input[type="radio"]:hover + .radio-indicator,
 .filter-input-radio input[type="radio"]:focus + .radio-indicator {
@@ -1279,6 +1286,7 @@ input[type="radio"].visually-hidden {
 .text-sorting-up a:focus {
   opacity: 0.6;
 }
+
 .text-sorting-up a:active {
   opacity: 1;
 }
